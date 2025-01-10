@@ -20,7 +20,7 @@ void solve(int __test_case)
         mp[it[0]][it[1]]++;
     int ans = 0;
     for (auto &it : mp)
-    {
+    { 
         int x = 0;
         for (auto &itt : it.second)
             x += itt.second;

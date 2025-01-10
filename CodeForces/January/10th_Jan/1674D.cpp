@@ -20,7 +20,7 @@ void solve(int __test_case)
             swap(arr[i], arr[i + 1]);
     if (is_sorted(all(arr)))
         cout << "YES";
-    else
+    else 
         cout << "NO";
 }
 
