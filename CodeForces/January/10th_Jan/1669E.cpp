@@ -29,7 +29,7 @@ void solve(int __test_case)
             x -= itt.second;
             ans += itt.second * x;
         }
-    }
+    } 
     mp.clear();
     for (auto &it : str)
         mp[it[1]][it[0]]++; 
