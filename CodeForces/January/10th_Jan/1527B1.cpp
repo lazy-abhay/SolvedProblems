@@ -21,7 +21,7 @@ void solve(int __test_case)
             cout << "Alice";
         else
             cout << "BOB";
-    }
+    } 
     else
     {
         int cnt = count(all(str), '0');
