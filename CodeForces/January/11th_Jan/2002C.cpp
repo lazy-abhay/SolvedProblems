@@ -1,0 +1,48 @@
+/*     Coded by lazy_abhay     */
+
+#include <bits/stdc++.h>
+using namespace std;
+
+#define endl "\n"
+#define int long long
+#define all(x) x.begin(), x.end()
+#define rall(x) x.rbegin(), x.rend()
+
+void solve(int __test_case)
+{
+    int n;
+    cin >> n;
+    int x[n], y[n];
+    for (int i = 0; i < n; ++i)
+        cin >> x[i] >> y[i];
+    int sx, sy, ex, ey;
+    cin >> sx >> sy >> ex >> ey;
+    int dist = powl(sx - ex, 2) + powl(sy - ey, 2);
+    for (int i = 0; i < n; ++i)
+    {
+        int curr = powl(ex - x[i], 2) + powl(ey - y[i], 2);
+        if (curr <= dist)
+        {
+            cout << "NO";
+            return;
+        }
+    }
+    cout << "YES";
+}
+
+int32_t main(void)
+{
+    cin.tie(nullptr);
+    ios::sync_with_stdio(false);
+
+    int __test_case = 1;
+    cin >> __test_case;
+
+    for (int __t = 1; __t <= __test_case; ++__t)
+    {
+        solve(__t);
+        cout << endl;
+    }
+
+    return 0;
+}
