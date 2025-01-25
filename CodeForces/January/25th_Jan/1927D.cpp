@@ -51,11 +51,11 @@ int32_t main(void)
                 this->n = arr.size();
                 minTree.resize(4 * n, INT_MAX);
                 maxTree.resize(4 * n, INT_MIN);
-                build(1, 0, n - 1);
+                build(0, 0, n - 1);
             }
             pair<int, int> query(int l, int r)
             {
-                return query(1, 0, n - 1, l, r);
+                return query(0, 0, n - 1, l, r);
             }
         };
         int n;
