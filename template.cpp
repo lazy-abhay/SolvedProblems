@@ -13,6 +13,7 @@ int32_t main(void)
     cin.tie(nullptr);
     ios::sync_with_stdio(false);
 
+    // Its either the pain or regret, or the pain of discipline
     auto solve = [&](int __t) -> void
     {
         
