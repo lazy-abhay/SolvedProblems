@@ -16,7 +16,7 @@ int32_t main(void)
     // Its either the pain or regret, or the pain of discipline
     auto solve = [&](int __t) -> void
     {
-        
+         
     };
 
     int __T = 1;
