@@ -11,22 +11,19 @@ using namespace std;
 int32_t main(void)
 {
     cin.tie(nullptr);
-    ios::sync_with_stdio(false);
+    ios_base::sync_with_stdio(false);
 
-    // Its either the pain or regret, or the pain of discipline
-    auto solve = [&](int __t) -> void
+    auto abhay = [&](int __t) -> void
     {
-         
+        
     };
 
-    int __T = 1;
-    cin >> __T;
-
-    for (int __t = 1; __t <= __T; __t++)
+    int T = 1;
+    cin >> T;
+    for (int t = 1; t <= T; ++t)
     {
-        solve(__t);
+        abhay(t);
         cout << endl;
     }
-
     return 0;
 }
