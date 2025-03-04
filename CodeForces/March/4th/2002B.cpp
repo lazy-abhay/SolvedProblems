@@ -25,7 +25,7 @@ int32_t main(void)
         if (a == b)
             cout << "Bob";
         else
-        {
+        { 
             reverse(all(a));
             if (a == b)
                 cout << "Bob";
