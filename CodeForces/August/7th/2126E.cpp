@@ -14,7 +14,7 @@ int32_t main(void)
     auto abhay = [&](int __t) -> void
     {
         int n;
-        cin >> n;
+        cin >> n; 
         vector<int> p(n), s(n);
         for (auto &it : p)
             cin >> it;
